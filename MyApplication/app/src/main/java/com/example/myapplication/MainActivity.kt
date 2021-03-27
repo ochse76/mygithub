@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         val rollButton: Button = findViewById(R.id.button3)
         rollButton.setOnClickListener { OnDiceButtonClick() }
     }
