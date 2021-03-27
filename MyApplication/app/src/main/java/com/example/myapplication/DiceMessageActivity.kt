@@ -20,6 +20,8 @@ class DiceMessageActivity : AppCompatActivity() {
 
         diceImage = findViewById(R.id.dice_image)
         diceImage2 = findViewById(R.id.dice_image2)
+
+        //tets git
     }
 
     private fun rollDice() {
