@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
         val editText = findViewById<EditText>(R.id.editText)
         val message = editText.text.toString()
         val intent = Intent(this, DisplayMessageActivity::class.java)
+        intent.putExtra(EXTRA_MESSAGE, message)
 
         startActivity(intent)
     }
